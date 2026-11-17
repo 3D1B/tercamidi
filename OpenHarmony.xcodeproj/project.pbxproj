@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = 1;
+	"classes" = {
+	};
+	"objectVersion" = 56;
+	"objects" = {
+		"CE1C8B79FB9A5508478B0247" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "MIDIService.swift";
+			"sourceTree" = "<group>";
+		};
+		"9EFC98F324EFE860397C28FA" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "OpenHarmonyApp.swift";
+			"sourceTree" = "<group>";
+		};
+		"456FBDA2451E02D12CF65107" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "Store.swift";
+			"sourceTree" = "<group>";
+		};
+		"38D7C0841DDA5C4F937B9428" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"path" = "en.lproj/Localizable.strings";
+			"sourceTree" = "<group>";
+			"name" = "en";
+		};
+		"71D98B01A73CF71118853514" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"path" = "de.lproj/Localizable.strings";
+			"sourceTree" = "<group>";
+			"name" = "de";
+		};
+		"18ADD0BA1DC58A80C56FBE11" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"path" = "sr.lproj/Localizable.strings";
+			"sourceTree" = "<group>";
+			"name" = "sr";
+		};
+		"F2D1BF752036A896D9DA888C" = {
+			"isa" = "PBXVariantGroup";
+			"children" = (
+				"38D7C0841DDA5C4F937B9428",
+				"71D98B01A73CF71118853514",
+				"18ADD0BA1DC58A80C56FBE11",
+			);
+			"name" = "Localizable.strings";
+			"sourceTree" = "<group>";
+		};
+		"31E47623E9E496DCBEA27AA8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "F2D1BF752036A896D9DA888C";
+		};
+		"F3AA70960C83E50D2407B0EE" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"path" = "en.lproj/InfoPlist.strings";
+			"sourceTree" = "<group>";
+			"name" = "en";
+		};
+		"2E3795E1B23D2BDB9AE182E1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"path" = "de.lproj/InfoPlist.strings";
+			"sourceTree" = "<group>";
+			"name" = "de";
+		};
+		"A484F009F87B949F30744BB5" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"path" = "sr.lproj/InfoPlist.strings";
+			"sourceTree" = "<group>";
+			"name" = "sr";
+		};
+		"D63CB1F9ACC0CAA539159FC9" = {
+			"isa" = "PBXVariantGroup";
+			"children" = (
+				"F3AA70960C83E50D2407B0EE",
+				"2E3795E1B23D2BDB9AE182E1",
+				"A484F009F87B949F30744BB5",
+			);
+			"name" = "InfoPlist.strings";
+			"sourceTree" = "<group>";
+		};
+		"70F2A036CF8605653FEB6851" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "D63CB1F9ACC0CAA539159FC9";
+		};
+		"05529D7BAF9BE1F1AD75AA78" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "folder.assetcatalog";
+			"path" = "Assets.xcassets";
+			"sourceTree" = "<group>";
+		};
+		"999FF37E9C5A0FFB78E1CDE2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "05529D7BAF9BE1F1AD75AA78";
+		};
+		"8873151C067A966D8A2B0623" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "Info.plist";
+			"sourceTree" = "<group>";
+		};
+		"13C4608B5138EBE9B3A45A55" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"CE1C8B79FB9A5508478B0247",
+				"9EFC98F324EFE860397C28FA",
+				"456FBDA2451E02D12CF65107",
+				"F2D1BF752036A896D9DA888C",
+				"D63CB1F9ACC0CAA539159FC9",
+				"05529D7BAF9BE1F1AD75AA78",
+				"8873151C067A966D8A2B0623",
+			);
+			"sourceTree" = "<group>";
+			"path" = "App";
+		};
+		"A8792157CB4F27FB949C035F" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"includeInIndex" = 0;
+			"path" = "OpenHarmony.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"AE7805B56D1DCAFAA071416F" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"A8792157CB4F27FB949C035F",
+			);
+			"sourceTree" = "<group>";
+			"name" = "Products";
+		};
+		"2BA340BF271E1A0E2D6B10FC" = {
+			"isa" = "PBXGroup";
+			"children" = (
+			);
+			"sourceTree" = "<group>";
+			"path" = "Core";
+		};
+		"60EB5AC69302A5F5CE60854D" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				"13C4608B5138EBE9B3A45A55",
+				"AE7805B56D1DCAFAA071416F",
+			);
+			"sourceTree" = "<group>";
+			"name" = "Root";
+		};
+		"085827B649F7606E862BCEEB" = {
+			"isa" = "XCLocalSwiftPackageReference";
+			"relativePath" = "Core";
+		};
+		"F5AE27228AC34400DE4A3768" = {
+			"isa" = "XCSwiftPackageProductDependency";
+			"package" = "085827B649F7606E862BCEEB";
+			"productName" = "HarmonyCore";
+		};
+		"741D95659BF2D458DAF3D063" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "CE1C8B79FB9A5508478B0247";
+		};
+		"4DD9E1DDBCFCB38A43E59568" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "9EFC98F324EFE860397C28FA";
+		};
+		"9A48B2EDADC9A8FF2B4EB6B4" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "456FBDA2451E02D12CF65107";
+		};
+		"878A52FC5FF6A57D50B7B870" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"741D95659BF2D458DAF3D063",
+				"4DD9E1DDBCFCB38A43E59568",
+				"9A48B2EDADC9A8FF2B4EB6B4",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"41D311A605520FC7B8B9A980" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"31E47623E9E496DCBEA27AA8",
+				"70F2A036CF8605653FEB6851",
+				"999FF37E9C5A0FFB78E1CDE2",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"49EEC38F2A087F264732B049" = {
+			"isa" = "PBXBuildFile";
+			"productRef" = "F5AE27228AC34400DE4A3768";
+		};
+		"E2AA269EB967A8853A258BFA" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = (
+				"49EEC38F2A087F264732B049",
+			);
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"73EBF6644258C120893E685D" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SWIFT_VERSION" = "5.0";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+			};
+			"name" = "Debug";
+		};
+		"0B0C687DF8B6B8DC790B519C" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"SDKROOT" = "iphoneos";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SWIFT_VERSION" = "5.0";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"1922B098E983995960BE56B0" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"73EBF6644258C120893E685D",
+				"0B0C687DF8B6B8DC790B519C",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"B00CCDD09424E369308D67FA" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "org.openharmony.ios";
+				"MARKETING_VERSION" = "0.1.0";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_FILE" = "App/Info.plist";
+				"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+			};
+			"name" = "Debug";
+		};
+		"1B104479E55E37CF8A63CBDF" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "org.openharmony.ios";
+				"MARKETING_VERSION" = "0.1.0";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"TARGETED_DEVICE_FAMILY" = "1,2";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_FILE" = "App/Info.plist";
+				"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"SWIFT_EMIT_LOC_STRINGS" = "YES";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"7FA7C6DD60DC323C7F3FA76C" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				"B00CCDD09424E369308D67FA",
+				"1B104479E55E37CF8A63CBDF",
+			);
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"C1E9827DB735CA9BAA54A540" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "7FA7C6DD60DC323C7F3FA76C";
+			"buildPhases" = (
+				"878A52FC5FF6A57D50B7B870",
+				"E2AA269EB967A8853A258BFA",
+				"41D311A605520FC7B8B9A980",
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "OpenHarmony";
+			"packageProductDependencies" = (
+				"F5AE27228AC34400DE4A3768",
+			);
+			"productName" = "OpenHarmony";
+			"productReference" = "A8792157CB4F27FB949C035F";
+			"productType" = "com.apple.product-type.application";
+		};
+		"244210E48437B6556980A702" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastUpgradeCheck" = "1600";
+				"TargetAttributes" = {
+					"C1E9827DB735CA9BAA54A540" = {
+						"CreatedOnToolsVersion" = "16.0";
+					};
+				};
+			};
+			"buildConfigurationList" = "1922B098E983995960BE56B0";
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "en";
+			"hasScannedForEncodings" = 0;
+			"knownRegions" = (
+				"en",
+				"de",
+				"sr",
+				"Base",
+			);
+			"mainGroup" = "60EB5AC69302A5F5CE60854D";
+			"packageReferences" = (
+				"085827B649F7606E862BCEEB",
+			);
+			"productRefGroup" = "AE7805B56D1DCAFAA071416F";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = (
+				"C1E9827DB735CA9BAA54A540",
+			);
+		};
+	};
+	"rootObject" = "244210E48437B6556980A702";
+}
