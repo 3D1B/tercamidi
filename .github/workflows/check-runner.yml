@@ -1,0 +1,15 @@
+name: Check GitHub runner access
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  runner:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-15]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 3
+    steps:
+      - name: Confirm runner availability
+        run: uname -a
