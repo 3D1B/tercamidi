@@ -80,7 +80,7 @@ struct StageView: View {
                 }
                 .alert("Error", isPresented: Binding(get: { midi.error != nil || store.error != nil }, set: { if !$0 { midi.error = nil; store.error = nil } })) {
                     Button("OK") { midi.error = nil; store.error = nil }
-                } message: { Text(midi.error ?? store.error ?? "") }
+                } message: { Text(LocalizedStringKey(midi.error ?? store.error ?? "")) }
         }.preferredColorScheme(.dark)
     }
 }

@@ -4,7 +4,8 @@ import SwiftUI
 
 enum PresetError: LocalizedError {
     case invalid
-    var errorDescription: String? { NSLocalizedString("Invalid preset file or empty name.", comment: "Preset validation") }
+    // Keep a stable localization key; SwiftUI resolves it using the in-app language.
+    var errorDescription: String? { "Invalid preset file or empty name." }
 }
 
 final class Store: ObservableObject {
@@ -51,7 +52,7 @@ final class Store: ObservableObject {
     }
     func add() {
         guard presets.count < 256 else { return }
-        presets.append(.init(name: String(localized: "New harmony"), mapping: Array(repeating: [4], count: 128)))
+        presets.append(.init(name: "New harmony", mapping: Array(repeating: [4], count: 128)))
         selected = presets.count - 1; page = selected / 6; save()
     }
     func exportURL() throws -> URL {

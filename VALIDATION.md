@@ -6,4 +6,8 @@
 - **Ausgeführt:** Prüfung gleicher Übersetzungsschlüssel in Deutsch, Englisch und Serbisch sowie reproduzierbarer Projektgenerierung.
 - **Noch offen:** GitHub-Actions-Lauf, Kompilierung mit iOS-SDK, Erzeugung/Signierung einer IPA, iPhone-UI, USB-/Bluetooth-Verbindungen und Pa5X-Hardwaretest.
 
+## Erster GitHub-Versuch
+
+Das Projekt wurde nach `3D1B/tercamidi` hochgeladen. GitHub beendet sowohl den IPA-Workflow als auch einen minimalen Runner-Test ohne Checkout oder weitere Actions mit `startup_failure`, bevor Jobs oder Logs entstehen. Eine zusätzliche Prüfung mit Actionlint 1.7.12 meldet keinen Workflow-Fehler. Die konkrete Startfehlermeldung ist über die verfügbaren API-Antworten nicht sichtbar und muss auf der GitHub-Seite des Laufs geprüft werden. Es wurde noch keine IPA erzeugt.
+
 Die erfolgreiche Engine-Prüfung ist kein Nachweis für Funktionsparität mit der Original-App oder für Fehlerfreiheit der nativen Oberfläche und MIDI-Anbindung. Der GitHub-Workflow ist vorbereitet und muss im Zielrepository erstmals ausgeführt werden.
